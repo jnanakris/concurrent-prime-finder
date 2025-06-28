@@ -1,0 +1,8 @@
+{
+  "start_range": 1,
+  "end_range": 1000000,
+  "primes_found": 78498,
+  "execution_time": 1.823,
+  "workers": 8,
+  "primes": [2, 3, 5, 7, 11]
+}
