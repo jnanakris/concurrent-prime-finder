@@ -1,0 +1,24 @@
+{
+  "configuration": {
+    "start_range": 1,
+    "end_range": 1000000,
+    "cpu_count": 8
+  },
+  "sequential": {
+    "primes_found": 78498,
+    "execution_time": 12.456,
+    "workers": 1
+  },
+  "threading": {
+    "primes_found": 78498,
+    "execution_time": 12.234,
+    "workers": 8,
+    "speedup": 1.02
+  },
+  "multiprocessing": {
+    "primes_found": 78498,
+    "execution_time": 2.145,
+    "workers": 8,
+    "speedup": 5.81
+  }
+}

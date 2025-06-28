@@ -1,0 +1,22 @@
+{
+  "configuration": {
+    "start_range": 1,
+    "end_range": 1000000,
+    "cpu_count": 8
+  },
+  "threadpool": {
+    "primes_found": 78498,
+    "execution_time": 1.756,
+    "workers": 8
+  },
+  "parallelstream": {
+    "primes_found": 78498,
+    "execution_time": 1.623,
+    "workers": 8
+  },
+  "completablefuture": {
+    "primes_found": 78498,
+    "execution_time": 1.698,
+    "workers": 8
+  }
+}

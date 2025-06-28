@@ -1,0 +1,22 @@
+# Core testing framework
+pytest==7.4.3
+pytest-benchmark==4.0.0
+pytest-cov==4.1.0
+
+# For performance visualization
+matplotlib==3.8.2
+numpy==1.26.2
+seaborn==0.13.0
+
+# For JSON handling (already in stdlib, but for completeness)
+# json is built-in
+
+# For timing and profiling
+memory-profiler==0.61.0
+
+# Optional: for better test output
+pytest-html==4.1.1
+pytest-timeout==2.2.0
+
+# For type hints (optional)
+mypy==1.7.1
